@@ -1,0 +1,20 @@
+// $card-max-width: 960px;
+$card-max-width: 100%;
+
+// $table-concept-max-height: 480px;
+$table-concept-max-height: 100%;
+
+$table-background-color: #ffffff;
+$table-hover-background-color: darken($table-background-color, 8%);
+$table-even-background-color: darken($table-background-color, 4%);
+$table-header-color: #ffffff;
+$table-header-background-color: #8f8f8f;
+
+$pagination-background-color: #8f8f8f;
+
+$pagination-label-color: #ffffff;
+$pagination-label-background-color: $pagination-background-color;
+$pagination-label-active-color: #ffffff;
+$pagination-label-active-background-color: darken($pagination-background-color, 15%);
+$pagination-label-disabled-color: #ffffff;
+$pagination-label-disabled-background-color: lighten($pagination-background-color, 15%);

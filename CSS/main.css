@@ -1,0 +1,287 @@
+body .details-wrapper,
+body .wrapper {
+  width: 90%;
+  margin: 0 auto 2rem auto;
+}
+body .details-wrapper header h1,
+body .wrapper header h1 {
+  margin: 1rem auto;
+  text-align: center;
+  font-family: "Titan One", cursive;
+}
+body .details-wrapper .search-container,
+body .wrapper .search-container {
+  width: 30%;
+  padding-bottom: 1rem;
+  float: right;
+}
+body .details-wrapper .search-container .search-input,
+body .wrapper .search-container .search-input {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px #ddd solid;
+  float: left;
+  width: 75%;
+  background: #ffffff;
+}
+body .details-wrapper .search-container .search-btn,
+body .wrapper .search-container .search-btn {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  background: rgb(2, 110, 165);
+  color: white;
+  font-size: 17px;
+  border: 1px #ddd solid;
+  border-left: none;
+  cursor: pointer;
+}
+body .details-wrapper .button-container,
+body .wrapper .button-container {
+  margin: 0;
+  float: left;
+  padding: 1rem 0 2rem 0;
+}
+body .details-wrapper .button-container a,
+body .details-wrapper .button-container button,
+body .wrapper .button-container a,
+body .wrapper .button-container button {
+  float: left;
+  border: 1px rgb(2, 94, 139);
+  background: rgb(2, 110, 165);
+  padding: 8px 10px;
+  color: white;
+  letter-spacing: 2px;
+  transition: all;
+}
+body .details-wrapper .button-container a:hover,
+body .details-wrapper .button-container button:hover,
+body .wrapper .button-container a:hover,
+body .wrapper .button-container button:hover {
+  background: rgb(6, 77, 112);
+  transition-duration: 0.3s;
+}
+body table {
+  background-color: #ffffff;
+  font-size: 16px;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+body table thead {
+  margin-bottom: 10px;
+}
+body table thead tr:last-child th {
+  color: #ffffff;
+  font-weight: normal;
+  background-color: #8f8f8f;
+  border-bottom: solid 2px #d8d8d8;
+  position: sticky;
+  top: 0;
+  padding: 8px 0;
+  text-align: center;
+  font-weight: bold;
+}
+body table tbody tr:nth-child(even) {
+  background: #f2f2f2;
+}
+body table tbody tr td {
+  text-align: center;
+  padding: 5px 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+body table tbody tr .button-small {
+  border: none;
+  background: rgb(2, 110, 165);
+  color: white;
+  text-decoration: none;
+  padding: 3px 5px;
+  font-size: 12px;
+  transition: all;
+}
+body table tbody tr .button-small:hover {
+  background: rgb(6, 77, 112);
+  transition-duration: 0.3s;
+}
+
+#form-login {
+  background-image: radial-gradient(circle at 13% 47%, rgba(140, 140, 140, 0.03) 0%, rgba(140, 140, 140, 0.03) 25%, transparent 25%, transparent 100%), radial-gradient(circle at 28% 63%, rgba(143, 143, 143, 0.03) 0%, rgba(143, 143, 143, 0.03) 16%, transparent 16%, transparent 100%), radial-gradient(circle at 81% 56%, rgba(65, 65, 65, 0.03) 0%, rgba(65, 65, 65, 0.03) 12%, transparent 12%, transparent 100%), radial-gradient(circle at 26% 48%, rgba(60, 60, 60, 0.03) 0%, rgba(60, 60, 60, 0.03) 6%, transparent 6%, transparent 100%), radial-gradient(circle at 97% 17%, rgba(150, 150, 150, 0.03) 0%, rgba(150, 150, 150, 0.03) 56%, transparent 56%, transparent 100%), radial-gradient(circle at 50% 100%, rgba(25, 25, 25, 0.03) 0%, rgba(25, 25, 25, 0.03) 36%, transparent 36%, transparent 100%), radial-gradient(circle at 55% 52%, rgba(69, 69, 69, 0.03) 0%, rgba(69, 69, 69, 0.03) 6%, transparent 6%, transparent 100%), linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+#form-login .login-container {
+  width: 50%;
+  margin: 10vh auto 0 auto;
+  border: 1px solid gray;
+  padding: 2rem;
+  border-radius: 10px;
+  height: auto;
+  background-color: white;
+  box-shadow: 5px 6px 18px #888888;
+}
+#form-login .login-container .form-logo {
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  text-align: center;
+}
+#form-login .login-container .form-logo img {
+  width: 100%;
+  height: auto;
+}
+#form-login .login-container .form-element {
+  width: 100%;
+}
+#form-login .login-container .form-element label {
+  display: block;
+  font-size: 22px;
+  margin-top: 1rem;
+}
+#form-login .login-container .form-element input[type=text],
+#form-login .login-container .form-element input[type=password] {
+  font-size: 22px;
+  width: 100%;
+  padding: 12px;
+  border: 1px #ccc solid;
+  border-radius: 10px;
+  color: #888888;
+}
+#form-login .login-container button {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 2rem;
+  font-size: 28px;
+  background-color: rgb(2, 110, 165);
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+  transition: all;
+}
+#form-login .login-container button:hover {
+  background-color: rgb(6, 137, 202);
+  transition-duration: 0.2s;
+}
+
+body .edit-container,
+body .add-container {
+  margin: 0 10px;
+  padding-top: 2rem;
+}
+body .edit-container input,
+body .edit-container select,
+body .add-container input,
+body .add-container select {
+  display: block;
+  font-size: 22px;
+  width: 100%;
+  padding: 12px;
+  border: 1px #ccc solid;
+  border-radius: 10px;
+  color: #888888;
+  margin: 12px 0;
+}
+body .edit-container label,
+body .add-container label {
+  font-size: 22px;
+}
+body .edit-container input[type=submit],
+body .add-container input[type=submit] {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 2rem;
+  font-size: 28px;
+  background-color: rgb(2, 110, 165);
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+  transition: all;
+}
+body .edit-container input[type=submit]:hover,
+body .add-container input[type=submit]:hover {
+  background-color: rgb(6, 137, 202);
+  transition-duration: 0.2s;
+}
+
+body .details-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+}
+body .details-wrapper form {
+  width: 30%;
+  margin: 0 0 0 auto;
+}
+body .details-wrapper form .button-danger {
+  float: left;
+  background: rgb(165, 7, 2) !important;
+  padding: 8px 10px;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border: none;
+  transition: all;
+}
+body .details-wrapper form .button-danger:hover {
+  background: rgb(126, 8, 4) !important;
+  transition-duration: 0.3s;
+}
+
+* {
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  overflow-x: hidden;
+  align-items: center;
+  border: 0;
+  font-family: Helvetica;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+i {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.message {
+  width: 100%;
+  padding: 1rem;
+}
+
+.message.warning {
+  background: #e9e77f;
+  border-left: 6px #ceca09 solid;
+  color: #817f05;
+}
+
+.message.success {
+  background: #4bb838;
+  border-left: 6px #069b1e solid;
+  color: white;
+}
+
+.message.info {
+  background: #248baa;
+  border-left: 6px #06589b solid;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

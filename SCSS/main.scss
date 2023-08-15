@@ -1,0 +1,56 @@
+@import "./variables";
+@import "./functions";
+
+@import "./index";
+@import "./login";
+@import "./add";
+@import "./details";
+
+* {
+  // margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  overflow-x: hidden;
+  align-items: center;
+  border: 0;
+  // background-color: #000 !important;
+  font-family: Helvetica;
+}
+
+a {
+  text-decoration: none !important;
+  // color: black !important;
+}
+
+i {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  // font-weight: bold;
+}
+.message {
+  @include message;
+}
+
+.message.warning {
+  @include messageType(#e9e77f, 6px #ceca09 solid, #817f05);
+}
+
+.message.success {
+  @include messageType(#4bb838, 6px #069b1e solid, white);
+}
+
+.message.info {
+  @include messageType(#248baa, 6px #06589b solid, white);
+}

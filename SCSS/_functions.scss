@@ -1,0 +1,23 @@
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin message {
+  width: 100%;
+  padding: 1rem;
+}
+
+@mixin messageType($backgroundColor, $borderLeft, $color) {
+  background: $backgroundColor;
+  border-left: $borderLeft;
+  color: $color;
+}

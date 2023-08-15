@@ -1,0 +1,27 @@
+body {
+  .details-wrapper {
+    @include flexColumn;
+    align-items: flex-start;
+
+    form {
+      width: 30%;
+      margin: 0 0 0 auto;
+
+      .button-danger {
+        float: left;
+        background: rgb(165, 7, 2) !important;
+        padding: 8px 10px;
+        color: white;
+        text-decoration: none;
+        letter-spacing: 2px;
+        border: none;
+        transition: all;
+
+        &:hover {
+          background: rgb(126, 8, 4) !important;
+          transition-duration: 0.3s;
+        }
+      }
+    }
+  }
+}
